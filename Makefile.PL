@@ -14,5 +14,9 @@ WriteMakefile(
 		'CPAN' => 0,
 		'Getopt::Long' => 0,
 	},
+	TEST_REQUIRES => {
+		'FindBin' => 0
+		'Test::More' => 0,
+	},
 );
 
